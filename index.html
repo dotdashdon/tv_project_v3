@@ -1,21 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TV Show Project | My Name (My GitHub username)</title>
-    <link href="style.css" rel="stylesheet" />
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  </head>
 
-  <body>
-    <div id="root">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TV Show Project Version 3 | Donna Henry(dotdashdon)</title>
+  <link href="style.css" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <div id="root">
+  </div>
+
+  <header>
+    <form id="form">
+      <input type="text" id="search" class="search" placeholder="Search">
+    </form>
+
+    <label for="dropDownEpisodes"></label>
+    <select name="dropDownEpisodes" id="dropDownEpisodes" class="dropdownEps">
+      <optgroup label="chooseEpisodes">
+        <option value="ep1">Episode One</option>
+        <option value="ep2">Episode Two</option>
+        <option value="ep3">Episode Three</option>
+        <option value="ep4">Episode Four</option>
+      </optgroup>
+    </select>
+
+    <label for="dropDownSeason"></label>
+    <select name="dropDownSeasons" id="dropDownSeasons" class="dropdownSeas">
+      <optgroup label="chooseSeason">
+        <option value="ep1">Season One</option>
+        <option value="ep2">Season Two</option>
+        <option value="ep3">Season Three</option>
+        <option value="ep4">Season Four</option>
+      </optgroup>
+    </select>
+
+
+  </header>
+
+  <main id="main">
+    <div class="episode">
+      <img src="" alt="">
+      <div class="epsiode-info">
+        <h3>Episode Title</h3>
+        <span class="SNumEpNum">0101</span>
+      </div>
+      <div class="overview">
+        <h3>Overview</h3>
+        Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Quae quam totam ab officiis
+        ipsa quod doloribus error dicta. Consectetur,
+        recusandae? Consectetur ea explicabo libero.
+        Accusantium optio placeat corrupti eius corporis!
+      </div>
     </div>
+    <div class="episode">
+      <img src="" alt="">
+      <div class="epsiode-info">
+        <h3>Episode Title</h3>
+        <span class="SNumEpNum">0101</span>
+      </div>
+      <div class="overview">
+        <h3>Overview</h3>
+        Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Quae quam totam ab officiis
+        ipsa quod doloribus error dicta. Consectetur,
+        recusandae? Consectetur ea explicabo libero.
+        Accusantium optio placeat corrupti eius corporis!
+      </div>
+    </div>
+    <div class="epsiode">
+      <img src="" alt="">
+      <div class="epsiode-info">
+        <h3>Episode Title</h3>
+        <span class="SNumEpNum">0101</span>
+      </div>
+      <div class="overview">
+        <h3>Overview</h3>
+        Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Quae quam totam ab officiis
+        ipsa quod doloribus error dicta. Consectetur,
+        recusandae? Consectetur ea explicabo libero.
+        Accusantium optio placeat corrupti eius corporis!
+      </div>
+    </div>
+  </main>
 
-    <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
-    <script src="episodes.js"></script>
 
-    <!-- Loads YOUR javascript code -->
-    <script src="script.js"></script>
-  </body>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
+  <script src="episodes.js"></script>
+
+  <!-- Loads YOUR javascript code -->
+  <script src="script.js"></script>
+</body>
+
 </html>
