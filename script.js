@@ -1,6 +1,5 @@
 
 
-
 const API_URL = 'https://api.tvmaze.com/shows/82/episodes'
 const IMG_PATH = 'https://api.tvmaze.com/shows/1/images'
 const SEARCH_URL = 'https://api.tvmaze.com//search/shows?&query=""'
