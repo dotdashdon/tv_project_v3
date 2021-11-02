@@ -1,11 +1,10 @@
-
-
 const API_URL = 'https://api.tvmaze.com/shows/82/episodes'
 const IMG_PATH = 'https://api.tvmaze.com/shows/1/images'
 const SEARCH_URL = 'https://api.tvmaze.com//search/shows?&query='
 
+const form =document.getElementById('form')
+const search = document.getElementById('')
 
-//
 getEpisodes(API_URL)
 
 
@@ -16,7 +15,9 @@ async function getEpisodes(url) {
    console.log(data.results)
 }
 
-
+form.addEventListener ('submit', (e) => {
+  e.preventDefault()
+})
 // function setup() {
 //   const allEpisodes = getAllEpisodes();
 //   makePageForEpisodes(allEpisodes);

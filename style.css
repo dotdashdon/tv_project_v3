@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
 /*put colors into custom properties on root scope so lets have custom property
-or var called primary-color and then syntax for custom properties is var() and whatver
+or var called primary-color and then syntax for custom properties is var() and whatever
 the variable is */
 :root {
 --primary-color:#22254b;
