@@ -126,7 +126,7 @@ main{
 }
 
 
-.SNumEpNum span{
+.Season span{
     background-color: var(--primary-color);
     padding: .25rem 0.5rem;
     border-radius: 3px;
@@ -134,7 +134,7 @@ main{
 }
 
 
-.overview {
+.summary {
     background-color: #fff;
     padding: 2rem;
     position: absolute;
