@@ -83,7 +83,6 @@
 // };
 
 
-
  const API_URL = 'https://api.tvmaze.com/shows/82/episodes'; //returns object with episode data
  const SEARCH_API = 'https://api.tvmaze.com//search/shows?&q=SEARCH_QUERY' //search of object 
  const IMG_PATH = 'https://api.tvmaze.com/shows/82/images' //return array of objects with img data
