@@ -114,7 +114,7 @@ function showEpisodes(episodes) {
 
 	episodeEl.innerHTML =`
       <img src="${IMG_PATH} + poster_medium" alt="${name}">
-      <div class="epsiode-info">
+      <div class="episode-info">
         <h3>${name}</h3>
         <span class="Season">${season}</span>            
       </div>
