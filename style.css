@@ -148,6 +148,6 @@ main{
 
 
 
-.episode:hover .overview {
+.episode:hover .summary {
     transform: translateY(0);
 }
