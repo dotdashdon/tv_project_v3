@@ -120,12 +120,8 @@ function showEpisodes(episodes) {
         <span class="Season">${season}</span>            
       </div>
       <div class="summary">
-        <h3>Overview</h3>
-        Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Quae quam totam ab officiis
-        ipsa quod doloribus error dicta. Consectetur,
-        recusandae? Consectetur ea explicabo libero.
-        Accusantium optio placeat corrupti eius corporis!
+        <h3>Summary</h3>
+        ${summary}
       </div>
     
 	`
