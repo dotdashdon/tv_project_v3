@@ -7,6 +7,7 @@
 const form =document.getElementById('form');
 const search = document.getElementById('search');
 const main = document.getElementById('main');
+const selectEp = document.getElementById('')
 
 
 function setup() {
@@ -51,6 +52,36 @@ function createEpisodeCard (episode){
 	`
  return episodeEl;
 }
+
+
+//NEED TO CREATE FUNCTION FOR DROPDOWN SHOW - this function will pull required data from api and append to 
+//select option. Then need a an event listener of 'change' to make it work. Possibly use create card but use Remove? 
+// dropDownEpisodes
+
+// function selectShow(show) {
+//    const {season, name, number} = season;
+//    const seasonEl =document.createElement('form'); // should thisbe form , select or div?
+//    seasonEl.classList.add('season')
+
+//    seasonEl.innerHTML =`
+//    <label for="dropDownSeason"></label>
+//   <select name="dropDownSeasons" id="dropDownSeasons" class="dropdownSeas">
+//     <optgroup label="chooseSeason">
+//       <option value="${name} <span class="Season">S${season               
+//       .toString()
+//       .padStart(2, "0")}: E${number.toString().padStart(2, "0")}</span>       
+    
+//     </optgroup>
+//   </select>
+   
+//    `
+//    return seasonEl;
+// }
+
+// selectShow.addEventListener("change", e => {
+
+//})
+
 
 
 search.addEventListener ('input', (e) => {
