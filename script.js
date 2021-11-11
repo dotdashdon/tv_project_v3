@@ -1,14 +1,13 @@
 
  const API_URL = 'https://api.tvmaze.com/shows/82/episodes'; //returns object with episode data
  const SEARCH_API = 'https://api.tvmaze.com//search/shows?&q=SEARCH_QUERY';//search of object 
- 
  let allEpisodes =[];  //to store array of episodes fetched
 
 const form =document.getElementById('form');
 const search = document.getElementById('search');
 const main = document.getElementById('main');
 const selectEp = document.getElementById('');
-const selectShow = document.getElementById('');
+//const selectShow = document.getElementById('');
 
 
 function setup() {
@@ -54,16 +53,17 @@ function populateEpisodeDropdown(episodes) {
 }
 
 
- function getShows(shows) {
+//  function getShows(shows) {
 
- } 
+//  } 
 
 
-function populateShowDropdown(shows){
-  const select = document.getElementById('dropDownShow');
-  select.innerHTML = '<option value="" >All Shows</option>';
+// function populateShowDropdown(shows){
+//   const select = document.getElementById('dropDownShow');
+//   select.innerHTML = '<option value="" >All Shows</option>';
+  
 
-}
+// }
 
 function showEpisodes(episodes) {
  main.innerHTML ='' //to stop episodes being added on to the bottom 
@@ -94,30 +94,6 @@ function createEpisodeCard (episode){
 	`
  return episodeEl;
 }
-
-
-
-// function populateSelectShow(show) {
-//    const { name, id} = show;
-//    const seasonEl =document.createElement(''); // should thisbe form , select or div?
-//    seasonEl.classList.add('season') //adding class 
-
-//    seasonEl.innerHTML =`
-//    <label for="dropDownSeason"></label>
-//   <select name="dropDownSeasons" id="dropDownSeasons" class="dropdownSeas">
-//     <optgroup label="chooseSeason">
-//       <option value="${name} <span class="Season">S${season               
-//       .toString()
-//       .padStart(2, "0")}: E${number.toString().padStart(2, "0")}</span>       
-    
-//     </optgroup>
-//   </select>
-   
-//    `
-//    return seasonEl;
-// }
-
-
 
 search.addEventListener ('input', (e) => {
   e.preventDefault() // so does not submit to the page 
