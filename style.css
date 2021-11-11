@@ -32,6 +32,13 @@ header{
     background-color:var(--secondary-color);
 }
 
+h1 {
+    color: white;
+    padding: 1 rem 1 rem;
+    font-family: inherit;
+}
+
+
 .search {
     background-color: transparent;
     border: 2px solid(var--primary-color);
@@ -150,4 +157,12 @@ main{
 
 .episode:hover .summary {
     transform: translateY(0);
+}
+
+
+footer {
+    color:white;
+    font-family: inherit;
+    
+    
 }
